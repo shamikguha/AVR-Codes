@@ -1,8 +1,8 @@
 //Setting the CPU frequency as 8MHz. ** FUSE BITS NEED TO BE CHANGED ACCORDINGLY **
 #define F_CPU 8000000UL
 
-#include <stdio.h>
-#include <delay.h>
+#include <avr/io.h>
+#include <avr/delay.h>
 
 
 
